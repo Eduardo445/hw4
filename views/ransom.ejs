@@ -1,0 +1,32 @@
+<% include partials/header.ejs %>
+
+    <body>
+        <header>
+            <h1> <%=Title%> </h1>
+        </header>
+        <% include partials/nav.ejs %>
+        <main>
+            <figure>
+                <img id="third" src="img/ransomware.png" alt="Ransomware picture" width="600" height="500">
+            </figure>
+            <div id="ransom">
+                <h2> <%=SubTitle%> </h2>
+                <p>Ransomware is a malware that locks you from your device until a payment is done through cryptocurrency or credit card.
+                   This is obtained through files that are opened from emails. Also by redirecting the user to another website by force.</p>
+                <p>Signs and forms of Ransomware:</p>
+                <ul>
+                    <li>Unable to access your device</li>
+                    <li>Pop-up claiming money for access to your device</li>
+                    <li>Encrypting Ransomware: Encrypt files for payments</li>
+                    <li>Scareware: used in pop-ups</li>
+                    <li>Screen Lockers: FBI looking pages demanding payment</li>
+                </ul>
+                <p>Encrypting ransomware is being used more frequently as it forces the victim to actually pay for their information.
+                   It is the strongest form of ransomware because it is impossible to retrieve the information, unless the payment is made and the hacker decides to give it back.</p>
+                <p>If you want to learn more, go to this website <a href="https://www.malwarebytes.com/ransomware/">here</a>!</p>
+            </div>
+            <% include partials/faker.ejs %>
+        </main>
+        <% include partials/footer.ejs %>
+    </body>
+</html>

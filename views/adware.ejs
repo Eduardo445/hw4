@@ -1,0 +1,31 @@
+<% include partials/header.ejs %>
+
+    <body>
+        <header>
+            <h1> <%=Title%> </h1>
+        </header>
+        <% include partials/nav.ejs %>
+        <main>
+            <figure>
+                <img id="second" src="img/adware.jpg" alt="Adware picture" width="600" height="500">
+            </figure>
+            <div id="adware">
+                <h2> <%=SubTitle%> </h2>
+                <p>Adware is software that prompts unwanted ads or redirects to other web pages. Its purpose is to make revenue by either the person
+                   clicking on them or stay hidden, gathering your information to sell to third parties. No device is safe from adware as it can be implemented anywhere.</p>
+                <p>Some signs of Adware happening:</p>
+                <ul>
+                    <li>Abnormal amount of pop-up ads start showing</li>
+                    <li>Redirecting to different web pages (can be one or multiple)</li>
+                    <li>Unexpected change in a website that you frequently visit (fake website)</li>
+                    <li>Browser crashes</li>
+                </ul>
+                <p>As you can see in the image above, pop-ups and ads actually happens like that or even worse by how fast they are showing up.
+                   Be careful when going on any website or when downloading free applications (more prone to adware for being "free").</p>
+                <p>If you want to learn more, go to this website <a href="https://www.malwarebytes.com/adware/">here</a>!</p>
+            </div>
+            <% include partials/faker.ejs %>
+        </main>
+        <% include partials/footer.ejs %>
+    </body>
+</html>

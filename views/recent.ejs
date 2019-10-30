@@ -1,0 +1,38 @@
+<% include partials/header.ejs %>
+        
+        <header>
+            <h1> <%=Title%> </h1>
+        </header>
+        <% include partials/nav.ejs %>
+        <main>
+            
+            <figure>
+                <img id="fourth" src="img/news_ransom.jpg" alt="News picture one" width="600" height="500">
+            </figure>
+            
+            <div id="newsOne">
+                <h2> <cite> <%=SubTitleOne%> </cite> </h2>
+                <h5><small>August 02, 2019</small></h5>
+                <p>A ransomware attack occured at Lodi, California, in which they got hold of phone lines and financial systems. Occured when a employee opened an email attachment. The demand was 75 bitcoin to fix the issue.</p>
+                <p>The city's solution was to use back servers to restore their systems and build upon a more secure system to avoid future attacks.</p>
+                <p>No major problems occured due to the fast actions to prevent further damage. This led the city to advocate the use of more secure network software.</p>
+                <p>If you want to know more, go to this website <a href="https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/california-city-confirms-phone-line-and-financial-data-system-disruptions-caused-by-ransomware">here</a>!</p>
+            </div>
+            <hr />
+            <br>
+            <figure>
+                <img id="fifth" src="img/trojan.jpg" alt="News picture two" width="600" height="500">
+            </figure>
+            
+            <div id="newsTwo">
+                <h2> <cite> <%=SubTitleTwo%> </cite> </h2>
+                <h5><small>September 05, 2019</small></h5>
+                <p>A trojan malware has been causing trouble in the Google Play Store to more than 470,000 downloads of infected applications.</p>
+                <p>The trojan will access information from the user using text messages, which are used for unwanted paid subscriptions.</p>
+                <p>Google is working hard on solving this issue by updating the security on the Google Play Store.</p>
+                <p>If you want to know more, go to this website <a href="https://cyware.com/news/android-trojan-called-joker-signs-users-up-for-premium-subscriptions-75d8ef31">here</a>!</p>
+            </div>
+        </main>
+        <% include partials/footer.ejs %>
+    </body>
+</html>
